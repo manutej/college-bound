@@ -79,7 +79,7 @@ All of your projects will comprise of a written technical report and a presentat
 - Your presentation slideshow rendered as a .pdf file.
 **NOTE**: Your entire Github repository will be evaluated as your technical report. Make sure that your files and directories are named appropriately, that all necessary files are included, and that no unnecessary or incomplete files are included.
 
-For your first presentation, you'll be presenting to a **non-technical** audience. You should prepare a slideshow with appropriately scaled visuals to complement a compelling narrative. **Presentations shoud be about 5 minutes, time tends to fly when presenting, and doing a dry run for a friend or family member, it's a great way to practice.**
+For your first presentation, you'll be presenting to a **non-technical** audience. You should prepare a slideshow with appropriately scaled visuals to complement a compelling narrative. **Presentations shoud be about 5 minutes.**  Time tends to fly when presenting, and doing a dry run for a friend or family member is a great way to practice.
 
 ---
 
