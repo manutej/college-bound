@@ -111,7 +111,7 @@ Your technical report will be hosted on Github Enterprise. Make sure it includes
 - Presentation slides
 - Any other necessary files (images, etc.)
 
-**Please fork the project, download or clone to your local machine, and submit a link in the Google Classroom assignment.**
+**Please fork the project, download or clone to your local machine, and submit a link in the [Google Classroom](https://classroom.google.com/u/1/w/NDEwMTU3NDY4OTQ4/t/all) assignment.**
 
 ---
 
