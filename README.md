@@ -2,7 +2,9 @@
 
  As a part-time tutor who also dabbles in data science, I have several students who are struggling to understand what the future holds for them and how standardized tests fit into their life path. They are feeling overwhelmed with all the data around "acceptable test scores" for various schools and majors. They want a good education, but need some help narrowing down the choices for majors and schools, based on their target (or expected) SAT score range. The purpose of this project is to help explore existing score data and how it relates to various majors and colleges for college-bound students.
 
-![Preview](images/intended_major_by_math_scatterplot.png)
+![Intended Major by Math Example Image](images/intended_major_by_math_scatterplot.png)
+
+![SAT Score Acceptance Rates](images/SAT_quartiles_scatterplot.png)
 ## How to Run:
 
 This is a simple jupyter notebook that contains various steps to clean SAT, ACT, College, and College Major data that produces handy visualizations as well as cleaned dataframes that can be used to customize your own visualization. Simply run the notebook with your favorite .ipynb tool and you should be able to produce the results shown in the images folder. 
