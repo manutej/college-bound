@@ -7,6 +7,24 @@
 
 This is a simple jupyter notebook that contains various steps to clean SAT, ACT, College, and College Major data that produces handy visualizations as well as cleaned dataframes that can be used to customize your own visualization. Simply run the notebook with your favorite .ipynb tool and you should be able to produce the results shown in the images folder. 
 
+## Discussion and Next Steps
+
+Based on all this data, we can conclude that being able to look at the subscores and SAT Quartiles of scores that correspond to certain majors or colleges is a useful way to approach becoming informed about the process. By sorting our score values we were able to understand which were the majors that correspond to which of the top scores. For example, it helps to know that if I want to pursue an engineering degree, I will probably want to make sure to have a high math score, but also a high reading and writing score (as opposed to the conventional logic of just needing math). Future projects could include building a machine learning recommender system that allows one to take all of these colleges with a corresponding score and recommending automatically the best college/major for a given student's score. 
+
+## Data Sources
+There are 10 datasets included in the [`data`](./data/) folder for this project. 
+
+* [`act_2017.csv`](./data/act_2017.csv): 2017 ACT Scores by State
+* [`act_2018.csv`](./data/act_2018.csv): 2018 ACT Scores by State
+* [`act_2019.csv`](./data/act_2019.csv): 2019 ACT Scores by State
+* [`act_2019_ca.csv`](./data/act_2019_ca.csv): 2019 ACT Scores in California by School
+* [`sat_2017.csv`](./data/sat_2017.csv): 2017 SAT Scores by State
+* [`sat_2018.csv`](./data/sat_2018.csv): 2018 SAT Scores by State
+* [`sat_2019.csv`](./data/sat_2019.csv): 2019 SAT Scores by State
+* [`sat_2019_by_intended_college_major.csv`](./data/sat_2019_by_intended_college_major.csv): 2019 SAT Scores by Intended College Major
+* [`sat_2019_ca.csv`](./data/sat_2019_ca.csv): 2019 SAT Scores in California by School
+* [`sat_act_by_college.csv`](./data/sat_act_by_college.csv): Ranges of Accepted ACT & SAT Student Scores by Colleges
+
 
 ### Data Dictionary
 |Feature|Type|Dataset|Description|
@@ -29,6 +47,3 @@ This is a simple jupyter notebook that contains various steps to clean SAT, ACT,
 |sat_lower_quartile|float64|Ranges of Accepted ACT & SAT Student Scores by Colleges|SAT Score marking the lower quartile for the given college or university|
 |sat_upper_quartile|float64|Ranges of Accepted ACT & SAT Student Scores by Colleges|SAT Score marking the upper quartile for the given college or university|
 
-## Discussion and Next Steps
-
-Based on all this data, we can conclude that being able to look at the subscores and SAT Quartiles of scores that correspond to certain majors or colleges is a useful way to approach becoming informed about the process. By sorting our score values we were able to understand which were the majors that correspond to which of the top scores. For example, it helps to know that if I want to pursue an engineering degree, I will probably want to make sure to have a high math score, but also a high reading and writing score (as opposed to the conventional logic of just needing math). Future projects could include building a machine learning recommender system that allows one to take all of these colleges with a corresponding score and recommending automatically the best college/major for a given student's score. 
